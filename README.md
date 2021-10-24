@@ -1,0 +1,2 @@
+# patika
+Patikada öğrendiklerim
