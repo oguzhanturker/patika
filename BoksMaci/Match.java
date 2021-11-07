@@ -15,7 +15,7 @@ public class Match {
 
     void run() {
         if (isCheck()) {
-            if (math.random*100>=50){  //Kodluyoruz koduna ek kısımdır. Maça kimin önce başlayacağını belirtir.
+            if (Math.random()*100>=50){  //Kodluyoruz koduna ek kısımdır. Maça kimin önce başlayacağını belirtir.
                 this.f1.health = this.f2.hit(this.f1);
                 if(isWin()){ // İlk başlayan tek yumrukta knock-out yapmış mı diye isWin'i buraya da ekledim.
                 }
